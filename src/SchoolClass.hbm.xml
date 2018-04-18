@@ -9,7 +9,14 @@
 	<set name="students" cascade="all">
 			<key column="class_id" />
 			<one-to-many class="Student" />
-		</set>
+	</set>
+	<set name="teachers" cascade="all">
+			<key column="teacher_id" />
+			<many-to-many class="Teacher" />
+	</set>
+	
+		
+		
 	<property name="profile" column="profile" type="string"></property>
 	<property name="currentYear" column="currentYear" type="integer"></property>
 	<property name="startYear" column="startYear" type="integer"></property>

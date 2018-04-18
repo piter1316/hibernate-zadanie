@@ -22,9 +22,9 @@ public class Main {
 		main.addNewData();
 		main.printSchools();
 
-		//main.executeQueries();
+		main.executeQueries();
 		//main.updatingObject();
-		//
+		
 		main.close();
 	}
 
@@ -38,7 +38,7 @@ public class Main {
 	}
 
 	private void executeQueries() {
-		// query0();
+		//query0();
 		// query1();
 		// query2();
 		// query3();
